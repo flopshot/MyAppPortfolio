@@ -12,7 +12,7 @@ import android.view.MenuItem;
 
 public class my_app_portfolio extends AppCompatActivity {
     AlertDialog.Builder popup;
-    
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
