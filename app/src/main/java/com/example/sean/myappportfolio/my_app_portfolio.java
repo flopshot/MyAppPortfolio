@@ -1,6 +1,5 @@
 package com.example.sean.myappportfolio;
 
-import android.app.AlertDialog;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -9,9 +8,14 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
+
 
 public class my_app_portfolio extends AppCompatActivity {
-    AlertDialog.Builder popup;
+/*    private Button button1, button2, button3,
+                    button4, button5, button6;
+                    button1 = (Button) findViewById(R.id.button1);
+                    */
 
 
     @Override
@@ -29,6 +33,42 @@ public class my_app_portfolio extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+    }
+
+    public void onButtonClick1(View v) {
+        Toast.makeText(getApplicationContext(),
+                "This button will launch my Popular Movies app!",
+                Toast.LENGTH_LONG).show();
+    }
+
+    public void onButtonClick2(View v) {
+        Toast.makeText(getApplicationContext(),
+                "This button will launch my Stock Hawk app!",
+                Toast.LENGTH_LONG).show();
+    }
+
+    public void onButtonClick3(View v) {
+        Toast.makeText(getApplicationContext(),
+                "This button will launch my Build It Bigger app!",
+                Toast.LENGTH_LONG).show();
+    }
+
+    public void onButtonClick4(View v) {
+        Toast.makeText(getApplicationContext(),
+                "This button will launch my Make Your App Material app!",
+                Toast.LENGTH_LONG).show();
+    }
+
+    public void onButtonClick5(View v) {
+        Toast.makeText(getApplicationContext(),
+                "This button will launch my Go Ubiquitous app!",
+                Toast.LENGTH_LONG).show();
+    }
+
+    public void onButtonClick6(View v) {
+        Toast.makeText(getApplicationContext(),
+                "This button will launch my Capstone app!",
+                Toast.LENGTH_LONG).show();
     }
 
     @Override
